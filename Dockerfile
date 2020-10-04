@@ -1,7 +1,7 @@
 FROM python:stretch
 
-COPY . /app
-WORKDIR /app
+COPY . /example
+WORKDIR /example
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
